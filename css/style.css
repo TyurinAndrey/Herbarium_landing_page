@@ -9,3 +9,31 @@ font-family: 'Poiret One', cursive;
 color: #000000;
 background-color: #FFFFFF;
 }
+
+.logo {
+
+}
+
+.logo img {
+	margin: 0 auto 0;
+}
+
+.description {
+	width: 1440px;
+	height: 700px;
+	background-image: url("../img/main/description.jpg");
+}
+
+.description p {
+	left: 40px;
+	top: 110px;
+}
+
+.desctiption span {
+	font-style: normal;
+	font-weight: normal;
+	line-height: 90px;
+	font-size: 64px;
+	letter-spacing: 0.1 em;
+	text-transform: uppercase;
+}
