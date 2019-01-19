@@ -3,37 +3,91 @@ margin: 0;
 padding: 0;
 font-style: normal;
 font-weight: 400;
-font-size: 16px;
-line-height: 22px;
+font-size: 1em;
+line-height: 1.375em;
 font-family: 'Poiret One', cursive;
 color: #000000;
 background-color: #FFFFFF;
 }
 
-.logo {
-
+.container {
+max-width: 1440px;
+padding: 0;
 }
 
-.logo img {
-	margin: 0 auto 0;
+.main-logo{
+display: flex;
+justify-content: center;
 }
 
 .description {
-	width: 1440px;
-	height: 700px;
-	background-image: url("../img/main/description.jpg");
+	padding: 0;
+	margin: 0;
 }
 
-.description p {
-	left: 40px;
-	top: 110px;
+
+
+
+
+.main-offer {
+	padding: 10px auto 18px;
+	margin: 10px auto 18px;
+	text-align: center;
+	background-color: #F7918C;
 }
 
-.desctiption span {
-	font-style: normal;
-	font-weight: normal;
-	line-height: 90px;
-	font-size: 64px;
-	letter-spacing: 0.1 em;
-	text-transform: uppercase;
+.row {
+	padding: 0;
+	margin: 0;
 }
+
+.action {
+	font-size: 13px;
+}
+
+.date {
+	font-size: 18px;
+	color:  #6E0B2E;
+
+}
+
+.offer {
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	font-size: 22px;
+	letter-spacing: 0.1em;
+	color: #000000;
+	line-height: 36px;
+}
+
+.strike {
+	text-decoration: line-through;
+	font-size: 26px;
+}
+
+.price {
+	color: #6E0B2E;
+	font-size: 26px;
+}
+
+.products {
+	margin-top: 26px;
+	text-align: center;
+}
+
+
+
+.product img{
+	text-align: center;
+	margin: 0 auto;
+}
+
+.product h3 {
+
+	text-align: center;
+	font-size: 18px;
+	line-height: 25px;
+	margin-top: 21px;
+}
+
