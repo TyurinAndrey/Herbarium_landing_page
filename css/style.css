@@ -15,7 +15,7 @@ max-width: 1440px;
 padding: 0;
 }
 
-.main-logo{
+.main-logo {
 display: flex;
 justify-content: center;
 }
@@ -24,10 +24,6 @@ justify-content: center;
 	padding: 0;
 	margin: 0;
 }
-
-
-
-
 
 .main-offer {
 	padding: 10px auto 18px;
@@ -48,7 +44,6 @@ justify-content: center;
 .date {
 	font-size: 18px;
 	color:  #6E0B2E;
-
 }
 
 .offer {
@@ -76,18 +71,67 @@ justify-content: center;
 	text-align: center;
 }
 
-
-
 .product img{
 	text-align: center;
 	margin: 0 auto;
 }
 
 .product h3 {
-
 	text-align: center;
 	font-size: 18px;
 	line-height: 25px;
 	margin-top: 21px;
 }
+
+.catalog {
+	padding-top: 30px;
+}
+
+.catalog h2 {
+	text-align: center;
+	font-size: 36px;
+	letter-spacing: 0.1em;
+}
+
+.item-product {
+	text-align: center;
+	font-size: 18px;
+	letter-spacing: 0.1em;
+	margin-top: 15px;
+	margin-bottom: 19px;
+}
+
+.features {
+	padding-top: 23px;
+}
+
+.features h2 {
+	text-align: center;
+	font-size: 36px;
+}
+
+.features h3 {
+	text-align: left;
+	font-size: 24px;
+}
+
+.features p {
+	font-size: 18px;
+	line-height: 25px;
+	letter-spacing: 0.1em;
+}
+
+
+.feature-1,
+.feature-2,
+.feature-3,
+.feature-4 {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		align-items: center;
+}
+
+
+
 
