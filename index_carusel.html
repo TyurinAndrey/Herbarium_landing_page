@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+		<meta charset="utf-8">
+		<meta name="description" content="">
+		<!-- Mobile viewport optimized -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+				<!-- Bootstrap CSS -->
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+		<title>Herbarium</title>
+		<link href="https://fonts.googleapis.com/css?family=Poiret+One&amp;subset=cyrillic" rel="stylesheet">
+		<!-- Custom CSS -->
+		<link rel="stylesheet" href="css/style.css">  
+</head>
+
+
+
+<body class="container">
+
+<div class="order">
+	<a class="preorder-bigestbtn popup_button" href="#" rel="preorder_window" onClick='$("#order_model").val("No");'>Сделать предзаказ</a>
+</div>
+
+<div class="popup_bg"></div>
+	<div class="popup_window" id="preorder_window">
+		<div class="popup_window__title">Оформи предзаказ со скидкой 20%</div>
+			<div class="popup_window__content">
+				<form action="index1.php" method="post" id="order_form">
+					<input class="popup_window__input" type="text" name="name"  placeholder="Ваше имя" />
+					<input class="popup_window__input" type="text" name="phone"placeholder="Ваш телефон" />
+					<input class="popup_window__input" type="text" name="email" placeholder="Ваш e-mail" />
+					<input type="submit" class="btn_submit_form" value="Сделать предзаказ" />
+				</form>
+			</div>
+		</div>
+
+
+
+
+
+<!-- Подключаем jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Подключаем Bootstrap JS -->    
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+
+</body>
+</html>
